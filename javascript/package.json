@@ -1,0 +1,15 @@
+{
+  "name": "hackerranboilerplate",
+  "version": "1.0.0",
+  "author": "Brok Bucholtz",
+  "engines": {
+    "node": ">=0.10.28"
+  },
+  "devDependencies": {
+    "mocha": "latest"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --timeout 10000"
+  },
+  "license": "MIT"
+}
