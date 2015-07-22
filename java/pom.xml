@@ -23,13 +23,15 @@
             <version>1.0.4</version>
         </dependency>
 
-        <!-- HackerRank Allowed Libraries -->
+        <!-- HackerRank Allowed Libraries: Standard Challenges -->
         <dependency>
             <groupId>com.googlecode.json-simple</groupId>
             <artifactId>json-simple</artifactId>
             <version>1.1.1</version>
         </dependency>
 
+        <!-- HackerRank Allowed Libraries: ML / NLP Challenges -->
+        <!--
         <dependency>
             <groupId>edu.stanford.nlp</groupId>
             <artifactId>stanford-corenlp</artifactId>
@@ -42,7 +44,8 @@
             <version>3.6.12</version>
         </dependency>
 
-        <!-- Put Java-ML Dependency Here -->
+        <dependency>Put Java-ML Dependency Here</dependency>
+        -->
     </dependencies>
 
 </project>
