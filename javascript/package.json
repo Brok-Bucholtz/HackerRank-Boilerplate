@@ -2,6 +2,7 @@
   "name": "hackerranboilerplate",
   "version": "1.0.0",
   "author": "Brok Bucholtz",
+  "private": true,
   "engines": {
     "node": ">=0.10.28"
   },
