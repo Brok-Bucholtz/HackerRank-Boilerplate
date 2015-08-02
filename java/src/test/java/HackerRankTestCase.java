@@ -1,10 +1,8 @@
 public class HackerRankTestCase {
-    int a, b, expectOutput;//TODO: Modify this for each HackerRank problem
+    String input, expectOutput;
 
-    //TODO: Modify this for each HackerRank problem
-    HackerRankTestCase(int a, int b, int expectOutput) {
-        this.a = a;
-        this.b = b;
+    HackerRankTestCase(String input, String expectOutput) {
+        this.input = input;
         this.expectOutput = expectOutput;
     }
 
@@ -14,14 +12,7 @@ public class HackerRankTestCase {
      * @return  The string used to test the method
      */
     public String getInput(){
-        StringBuilder inputString = new StringBuilder();
-
-        //TODO: Modify this for each HackerRank problem
-        inputString.append(a + System.lineSeparator());
-        inputString.append(b + System.lineSeparator());
-
-
-        return inputString.toString();
+        return input;
     }
 
     /**
@@ -30,11 +21,6 @@ public class HackerRankTestCase {
      * @return  The string that is expected from the algorithm
      */
     public String getExpectedOutput() {
-        StringBuilder outputString = new StringBuilder();
-
-        //TODO: Modify this for each HackerRank problem
-        outputString.append(expectOutput + System.lineSeparator());
-
-        return outputString.toString();
+        return expectOutput;
     }
 }

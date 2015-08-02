@@ -16,13 +16,14 @@ import java.io.PrintStream;
 @RunWith(JUnitParamsRunner.class)
 public class SolutionTest {
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+    private final String NEW_LINE = System.lineSeparator();
 
     //TODO: Modify parametersForTestMain for each HackerRank problem.
     private HackerRankTestCase[] parametersForTestMain() {
         return new HackerRankTestCase[]{
-                new HackerRankTestCase(2, 3, 5),
-                new HackerRankTestCase(1, 1, 2),
-                new HackerRankTestCase(1000, 1000, 2000)
+                new HackerRankTestCase("2"+NEW_LINE+"3", "5"+NEW_LINE),
+                new HackerRankTestCase("1"+NEW_LINE+"1", "2"+NEW_LINE),
+                new HackerRankTestCase("1000"+NEW_LINE+"1000", "2000"+NEW_LINE)
         };
     }
 
